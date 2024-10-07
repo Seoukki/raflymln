@@ -11,60 +11,11 @@ import AboutMeIllustration from "@/components/illustrations/AboutMe";
 const Projects = () => {
     const ProjectList = [
         {
-            href: "https://www.behance.net/gallery/132210415/Briton-English-Placement-Test",
-            type: "UI/UX & Fullstack Development",
-            image: "/images/projects/BRITONPlacementTest.webp",
-            title: "Briton English Placement Test",
-            description: "Placement test website for Briton English Education",
-        },
-        {
-            href: "https://www.behance.net/gallery/131988309/Duta-Bahasa-Inggris-2021-2022",
-            type: "UI/UX & Fullstack Development",
-            image: "/images/projects/DBI2122.webp",
-            title: "Duta Bahasa Inggris 2021-2022",
-            description: "English Competition for SMA/SMK and equivalent in Indonesia",
-        },
-        {
-            href: "https://www.behance.net/gallery/131966587/IndieSpices",
-            type: "UI/UX & Frontend Development",
-            image: "/images/projects/IndieSpices.webp",
-            title: "IndieSpices",
-            description: "Top Leading Supply of Spices in Indonesia",
-        },
-        {
-            href: "https://www.behance.net/gallery/127122741/Project-V2-Portfolio-Website-Design",
-            type: "Fullstack Development",
-            image: "/images/projects/RaflyMaulanaV2.webp",
-            title: "Rafly Maulana V2",
-            description: "2nd version of my portofolio site",
-        },
-        {
-            href: "https://www.behance.net/gallery/127108847/Project-V1-Portfolio-Web-Design",
-            type: "Frontend Development",
-            image: "/images/projects/RaflyMaulanaV1.webp",
-            title: "Rafly Maulana V1",
-            description: "1st version of my portofolio site",
-        },
-        {
             href: "https://www.behance.net/gallery/127174313/Project-Foxxy-E-Commerce",
             type: "Fullstack Development",
             image: "/images/projects/FoxxyECommerce.webp",
             title: "Foxxy E-Commerce",
             description: "A marketplace for every digital items",
-        },
-        {
-            href: "https://www.behance.net/gallery/127128767/Project-Foxxy-Game-Hosting",
-            type: "UI/UX",
-            image: "/images/projects/FoxxyGameHosting.webp",
-            title: "Foxxy Game Hosting",
-            description: "A hosting service, dedicated to games",
-        },
-        {
-            href: "https://drive.google.com/drive/folders/1UDQa3XFEwL2TBOplVRnT67uG8UpIENHV?usp=sharing",
-            type: "Fullstack Development",
-            image: "/images/projects/YKBJABAR.webp",
-            title: "Yayasan Kemala Bhayangkari Jawa Barat",
-            description: "Yayasan Kemala Bhayangkari Polda Jabar",
         },
     ];
 
@@ -253,10 +204,10 @@ export default function Home() {
                             <span className="animate-wave inline-block transform origin-bottom-right">👋</span> Hi! Welcome, I'm
                         </h3>
                         <h1 className="font-baloo text-6xl md:text-8xl" data-aos="bounce">
-                            Rafly Maulana
+                            Muhammad Ikhsan 
                         </h1>
                         <p className="font-comfortaa text-lg" data-aos="fadeIn">
-                            A <b>fullstack developer</b>, <b>designer</b>, and <b>producer</b>, from <span className="text-red-600">Indonesia</span>.
+                            A <b>newbie developer</b>, <b>designer</b>, and <b>producer</b>, from <span className="text-red-600">Indonesia</span>.
                         </p>
                         <Link href="#about" passHref={true}>
                             <button className="btn bg-theme-green-dark text-white mt-8" data-aos="fadeIn">
@@ -300,14 +251,14 @@ export default function Home() {
                             I Learn Through Experiences
                         </h1>
                         <p className="font-comfortaa text-base font-regular leading-7" data-aos="fadeIn" data-aos-anchor-placement="center-bottom">
-                            I’m Rafly, from Indonesia. I’ve spent my time to take any opportunity as well as developing my experience and skills to things like Music Producing, Graphic Designing,
+                            I’m Ikhsan, from Indonesia. I have spent my time taking every opportunity and developing my experience and skills for things like Graphic Design,
                             Programming, and many others.
                             <br />
                             <br />
                             But one thing I always stick with everything is, <b>I always do every works as my passion</b>, and that's what makes me happy also giving myself a chance to deliver best
                             works that i can do.
                         </p>
-                        <a href="http://linkedin.com/in/raflymln" target={"_blank"} rel="noreferrer" data-aos="fadeIn" data-aos-anchor-placement="center-bottom">
+                        <a href="https://id.linkedin.com/in/seon-g-934798331" target={"_blank"} rel="noreferrer" data-aos="fadeIn" data-aos-anchor-placement="center-bottom">
                             <button className="btn bg-theme-green-dark text-white mt-4" data-aos="fadeIn" data-aos-anchor-placement="center-bottom">
                                 <span className="bg-theme-green-light">Great, Now Tell Me More!</span>
                             </button>
@@ -362,49 +313,4 @@ export default function Home() {
                             </h3>
 
                             <a href="https://www.behance.net/raflymln" target={"_blank"} rel={"noreferrer"}>
-                                <button className="btn bg-theme-blue-very-dark text-white mt-8" data-aos="zoom-in" data-aos-delay="400">
-                                    <span className="bg-theme-blue-dark">Interesting, I Want to See More!</span>
-                                </button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section className="relative z-50">
-                        <Projects />
-                    </section>
-                </div>
-
-                <div className="absolute left-0 -bottom-1">
-                    <svg className="w-full h-full" height="404" viewBox="0 0 1919 404" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#aaavvv)">
-                            <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M0 212.416L80.0417 219.913C160.083 228.243 320.167 244.069 480.25 219.913C640.334 195.757 800.417 132.451 960.5 155.774C1119.58 179.931 1279.67 292.382 1439.75 284.052C1599.83 275.722 1759.92 148.278 1839.96 84.1388L1920 20V404H1839.96C1759.92 404 1599.83 404 1439.75 404C1279.67 404 1119.58 404 960.5 404C800.417 404 640.334 404 480.25 404C320.167 404 160.083 404 80.0417 404H0V212.416Z"
-                                fill="url(#linear1234)"
-                            />
-                        </g>
-                        <defs>
-                            <filter id="aaavvv" x="0" y="0" width="1920" height="404" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                                <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                <feOffset dy="-20" />
-                                <feColorMatrix type="matrix" values="0 0 0 0 0.607843 0 0 0 0 0.819608 0 0 0 0 0.898039 0 0 0 0.5 0" />
-                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-                            </filter>
-                            <linearGradient id="linear1234" x1="960" y1="-503.939" x2="960" y2="404" gradientUnits="userSpaceOnUse">
-                                <stop stopColor="#9BD1E5" stopOpacity="0" />
-                                <stop offset="1" stopColor="#9BD1E5" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </div>
-            </section>
-
-            <section id="contact" className="relative w-full bg-gradient-to-b from-theme-blue-medium to-theme-blue-dark">
-                <Footer />
-            </section>
-        </>
-    );
-}
+      
